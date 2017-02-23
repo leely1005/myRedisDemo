@@ -4,11 +4,8 @@ import java.io.Serializable;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
-import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
-
-import com.lee.entity.ContentInfo;
  
 public class MethodCacheInterceptor implements MethodInterceptor {
  
